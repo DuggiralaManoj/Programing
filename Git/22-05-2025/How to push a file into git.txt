@@ -1,0 +1,11 @@
+1.Locate the folder to git bash 
+
+2.git init  use this command to initialize 
+
+3.git add .   use tis command to add folder
+
+4.git commit -m "Describe what you are doing"
+
+5.git remote add origin http URL of the repository 
+
+6.git push -u origin master
