@@ -1,11 +1,21 @@
-1.Locate the folder to git bash 
+if we want update any code like adding files/folder or modifying files on git repo's we need to follow below stpes
 
-2.git init  use this command to initialize 
+1) inital step we need to colne the repository to local using below command
 
-3.git add .   use tis command to add folder
 
-4.git commit -m "Describe what you are doing"
+   git clone url
 
-5.git remote add origin http URL of the repository 
+   ex: git clone https://github.com/DuggiralaManoj/Programing
 
-6.git push -u origin master
+ 2) once clone the repository to local  we have to go to that repository path
+    i.e cd  programing  now we can able to add files/folder on this path once we need to push the modifies or added files to git repository
+
+ 3) push the updated to repo below git commands will help 
+    i) git add .
+    ii) git commit -m " comments "
+    iii) git checkout -b feature_branch
+    iv) git  push
+
+ 4) if we run the above commands your new code will pushed feature_brach so all your modified code is available in feature_branch
+
+ 5) to merge your new code to main branch need to raise pr
