@@ -9,7 +9,7 @@ if we want update any code like adding files/folder or modifying files on git re
  2) once clone the repository to local  we have to go to that repository path
     i.e cd  programing  now we can able to add files/folder on this path once we need to push the modifies or added files to git repository
 
- 3) push the updated to repo below git commands will help 
+ 3) push the updated code to repo below git commands will help 
     i) git add .
     ii) git commit -m " comments "
     iii) git checkout -b feature_branch
