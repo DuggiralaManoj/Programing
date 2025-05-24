@@ -1,0 +1,11 @@
+ls command is used to list the contents in present working directory or mentioned path
+
+syntax : ls  or ls path
+    ex:  ls 
+         ls .
+         ls /programs/xyz/cr
+
+         ls -l .
+         ls -a .
+
+         shrot name of ls -l  is ll
