@@ -2,7 +2,6 @@ if we want update any code like adding files/folder or modifying files on git re
 
 1) inital step we need to colne the repository to local using below command
 
-
    git clone url
 
    ex: git clone https://github.com/DuggiralaManoj/Programing
