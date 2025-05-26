@@ -1,11 +1,22 @@
+
+
 ls command is used to list the contents in present working directory or mentioned path
 
-syntax : ls  or ls path
-    ex:  ls 
-         ls .
-         ls /programs/xyz/cr
+syntax : ls  or ls path 
+    ex:1.ls 
+       2.ls .
+       3.ls /programs/xyz/cr
 
-         ls -l .
-         ls -a .
+       4.ls -l .
+       5.short name of ls -l  is "ll"
+       6.we can also use "la ."
+          
+         ls -l is used to list the all files and directories in your current path in a long format by providing information like owner, size, time, etc.
 
-         shrot name of ls -l  is ll
+        7.ls -la also do the same but it provides more information the ls -l
+
+        8.ls -a.  is used to list the all files including hidden files and list the names with beginning with a dot. 
+   
+         9.ls -F is used for listing the all files and directories by indicating what type of file it is. Slash for the directory and star for the executable files.
+          
+         
