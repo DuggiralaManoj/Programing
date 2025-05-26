@@ -1,0 +1,15 @@
+How to push a file into the into git 
+
+1.Locate the folder to git bash  
+
+2.git init  use this command to initialize the path
+
+3.git add .   use tis command to add folders
+
+4.git commit -m "Describe what you are doing" to commit the data 
+
+5.git remote add origin https://github.com/DuggiralaManoj/Programing.git
+
+6.git push -u origin master
+ 
+to push the code into the main branch we need to raise a pr(pull request).
