@@ -1,0 +1,27 @@
+OPP's (Object oriented programing) 
+
+Python is a object based programing language use to organise the code that uses objects and class as real world entities to decrease the complexity.
+
+It having some important concepts they are:
+
+1.Class 
+2.Object
+3.Polymorphism 
+3.Encapsulation
+4.Inheritance 
+5.Abstraction
+
+
+Class: 
+      Class is like instance of an object.
+   
+Syntax: 
+       class ClassName:       
+           #statements
+       
+Object:
+       Every thing in the python is an object 
+
+Syntax :
+       Object_name =Object()   
+

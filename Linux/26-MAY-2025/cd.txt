@@ -1,0 +1,16 @@
+cd is a short form of "change directory". It is used to change the current working directories and to move efficiently between two directories.
+
+syntax:  cd path 
+
+Example: 
+        1.cd dir_name  - to move to the directory 
+ 
+        2.cd  or cd~   - to come back to the home directory
+     
+        3.cd /         - to move to the root level directory
+   
+        4.cd -         - to come back to the directory which you have worked before cd command 
+ 
+        5.cd ..        - to move to the heigh level directory(Parent Directory) then the present directory 
+ 
+        6.cd .hide_dir - to move to hidden directory 

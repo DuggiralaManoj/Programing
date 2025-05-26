@@ -1,0 +1,24 @@
+1.taking a coffee type from the user: "What would you like to have?(latte/espresso/cappuccino):"
+Once the drink is served this prompt should shown to next customer.
+
+2. When user enter "off" as input then the program should end execution.
+
+3.When user enter "report" as a input then it should show the report of the current resources: 
+  eg: water=800ml,
+      milk=1000ml,
+      coffee=200g
+      and 
+      money=Rs.200
+
+4.Check sufficient resources are available or not
+
+5.if sufficient resources are available then machine should ask to inset the coins and calculate total money received.
+   [It should accept 5rs. 10rs.20rs.Coins only]
+
+6.Check payment is successful or not 
+   If user has entered sufficient money, cost of drink gets added to the machine as profit.
+   If user has entered too much money, machine should offer change to the user 
+   If money is not sufficient to purchase the drink user selected , it should print a message "Sorry that's not enough money. Money refunded"
+
+7.make coffee 
+    If payment is successful, ingredients to make the selected drink should be deducted from the coffee machine and print message what ever is their choice.      
