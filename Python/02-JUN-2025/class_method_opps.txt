@@ -1,0 +1,26 @@
+How to create a method in python?
+
+1.Attribute: It is nothing but what object having.
+             eg: name, age ,etc..
+
+2.Method: It is noting but what the object does.
+          eg: writing, listening, etc..
+
+
+syntax of method:
+      
+           def method_name(self):
+               #statement
+               
+How to take a attribute into method ?
+
+           def method_name(self, parameter):
+               self.attribute_name=parameter
+
+How to call a method:
+       
+         object_name.method_name()  #we can also have parameter.
+
+
+   
+
