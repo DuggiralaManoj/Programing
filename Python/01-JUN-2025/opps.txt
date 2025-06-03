@@ -1,0 +1,25 @@
+How to create instructor and objects and object attributes ? 
+
+class Instructor:
+    pass
+Instructor_1= Instructor()  #object
+Instructor_1.name ="Ravi"   #attribute
+Instructor_1.age =22        #attribute
+print(Instructor_1.name)
+
+Instructor_2= Instructor()
+Instructor_2.name ="Teja"
+Instructor_2.age =23
+print(Instructor_2.name)
+
+
+why we use classes ?
+
+ We use classes to get the code in readable format and to reduce the redundancy of a code 
+
+ But in this case we are having bulk amount of code that's why we use special function.
+
+"To initialization the object we use init method "
+
+def __inti__(self):   #this is special function
+

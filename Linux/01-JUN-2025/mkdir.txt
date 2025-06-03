@@ -1,0 +1,45 @@
+How to create a directory and how to give permissions to it?
+
+mkdir is a command used to create directories. mkdir stands for "make directory".
+
+What are the types of mkdir and how many types are there to create directory ?
+
+1.mkdir directory_name - to create a directory in current working directory.
+
+2.mkdir dir1 dir2 dir3 - to create multiple directories.
+
+3.mkdir -p project/python/new - to create a parent directory or to create a nested directories which the path did not already exists.
+
+How it created:
+               project/
+                    -->python/
+                           -->new
+
+4.mkdir -v new_dir  - to create a directory and to print a message to every directory which is created.-v stands for verbose.
+
+How then message shows:
+            
+  mkdir: created directory 'new_dir'
+
+5.mkdir -m 755 new_dir to create a new directory and  give rwxr-xt-x permissions to a directory. -m stans for the mode.
+ 
+755 breakdown:
+ 7 --> owner --> r-w-x
+ 5 --> group --> r-x
+ 5 --> other --> r-x 
+
+others 777,700,644,755
+
+ 6--> r-w
+ 7-->r-w-x
+ 0-->no permission 
+ 5-->r-x
+ 4-->r
+ 2-->w
+ 1-->x  
+
+
+
+
+
+   
