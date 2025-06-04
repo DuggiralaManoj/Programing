@@ -1,0 +1,12 @@
+How to delete a directory and trash itfie?
+
+1.rmdir dir_name   - to delete a directory if it is empty.
+
+2.rm -r dir_name   - to delete a directory if it having content in it. -r means recursive.
+
+3.rm -rf dir_name  - to delete a directory forcefully without any conformation message if we have any files in it. You have to re check the directory name because it is powerful command after using this command we cant undo it.
+
+4.rm path/project/program - we can also delete entire path also with is command.
+
+
+5.rm -rf /  - to delete all the files in the system with this command.
