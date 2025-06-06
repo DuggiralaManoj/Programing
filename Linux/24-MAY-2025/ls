@@ -18,5 +18,7 @@ syntax : ls  or ls path
         8.ls -a.  is used to list the all files including hidden files and list the names with beginning with a dot. 
    
          9.ls -F is used for listing the all files and directories by indicating what type of file it is. Slash for the directory and star for the executable files.
+
+          10.ls *.txt - to list the files with the extinction type.
           
          
