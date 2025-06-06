@@ -1,0 +1,14 @@
+How to find circumference of a circle using opps?
+
+1.Create a class 
+
+2.Create special method and pass one parameter name radius.
+
+3.Create one attribute called radius.
+
+4.To find the circumference we need pi value the we should apply this formula 
+      circumference of a circle = 2*pi*r
+
+5.we should create a method called get circumference and to get the value use return with the formula.
+
+6.Then create an object and call and print the method get circumference. 

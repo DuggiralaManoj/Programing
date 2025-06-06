@@ -1,0 +1,40 @@
+How to change a existing directory permissions and how to delete the permissions?
+
+1.chomd 755 my_dir  - to change the permissions of a directory.
+
+2.chomd -R 755 my_dir - to change the directory permissions and all its subdirectories permissions.
+
+we have an other way also
+
+By using symbolic Mode:
+Syntax:
+       chomd symbol+permission_symbol dir_name
+
+u = user (owner)
+
+g = group
+
+o = others
+
+a = all (user + group + others)
+
++ = add permission
+
+- = remove permission
+=
+= = set exactly
+
+Examples:
+
+3.chomd u+x dir_name  -to give executive permission to the owner. 
+
+4.chomd g-w dir_name  -to remove write command to  the group members.
+
+5.chomd a=rwx dir_name -to give permissions to all users.
+
+6.chomd u=rwx,go=rx dir_name - same as like 755 command. 
+
+7.chomd -R o-w dir_name  - to remove permissions to directory and to its subdirectories also.
+
+To know the permission of a file we use
+8.ls -ld dir_name
