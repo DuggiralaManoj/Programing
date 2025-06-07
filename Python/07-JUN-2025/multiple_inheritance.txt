@@ -1,0 +1,19 @@
+What is multiple inheritance?
+
+Inherit the properties from the more then one parent class is called multiple inheritance.
+
+1. Create parent classes the mention the those name in child class parenthesis. Then we can access the methods from the parent classes.
+
+2. If you have you have same method name in all the classes then we have to access it by " Class_name.method_name(object_name) "
+
+3.Without this call we have one process that is "mro (Method resolution order)" that helps to track the how the object going to call a method.
+
+4.We can also call the attributes from the parent class but it only calls the first mention name in child class parameter. We cant access this directly by the object.
+
+ We have to access it by the init method calling 
+  Eg: Parent_class_name.__init__(self) 
+
+5.We have to mention the parameter in init of child calls and in init of called parent method if the parent call having any parameter. And pass the parameters in object.
+
+
+

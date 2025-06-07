@@ -1,0 +1,12 @@
+How to push a code to existing branch
+
+1. Get the repo path to the git bash 
+
+2.git add .  to add the files 
+
+3.git commit -m "add your commit" - to comment your work 
+
+4.git push  -  to push your code to GitHub
+
+
+5.Then you should create a pull request in your GitHub then merge it.

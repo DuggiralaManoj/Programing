@@ -1,0 +1,17 @@
+How can we know the present working directory and how to copy a file ?
+
+1.pwd     - to print the current working directory full path.
+
+2.pwd -P  - to print the present working directory physical path.
+
+3.pwd -L  - to print the present working directory symbolic path.
+
+4.cp file_name.txt file1.txt - to copy a file to the same directory with a different name.
+
+5.cp file_name.txt /path/to/directory/ - to copy a file to the different directory.
+
+6.cp file1.txt file2.txt /path/to/directory/ - to copy multiple file to a directory.
+
+7.cp file1.txt file2.txt dir_name  - to copy multiple files to a directory.
+
+
