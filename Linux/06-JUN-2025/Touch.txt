@@ -1,0 +1,24 @@
+How to create a file ?
+
+touch is a command used to create empty files and updating the timestamps. 
+
+1.touch file_name.txt  -to create an empty file. We have to mention the file type.
+
+2.touch file_1.txt file_2.txt  - to create multiple empty files. 
+
+3.touch -a file_name.txt  - to update only the access time of the file.
+
+4.touch -m file_name.txt  - to update only the modification time.
+
+5.touch -t 202505170630 file_name.txt -to update the timestamps of a file.
+
+6.touch -d "2025-05-17 06:30" file_name.txt - to update the time in human readable format.
+
+7.touch -c file_name.txt  - it helps to not to create a file if it is already existed. It only change the timestamp.
+
+8.stat file_name.txt  - to check the timestamp details.
+
+touch --help and touch --version are helpful to get the help and version information.
+
+
+ 
