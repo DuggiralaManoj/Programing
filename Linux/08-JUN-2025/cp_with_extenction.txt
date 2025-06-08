@@ -1,0 +1,30 @@
+How to copy a file to the another directory with the content and some other commands?
+
+1.cp -r dir_1 dir_2 - to copy a directory with the content.
+
+#cp command cant copy the directory.
+
+2.cp -v file1.txt file2.txt - to show what is being copied. 
+
+3.cp -i file1.txt file2.txt - to overwrite a file with giving some prompt before overwriting it.
+
+After the command you'll get a prompt like this:
+cp: overwrite 'backup/file1.txt'? 
+
+You have to confirm with 'y' or 'n' to copy the file and you can also enter the enter button to skip copying the file. 
+
+# cp do not give any prompt before overwriting.
+
+4.cp -uv file1.txt file2.txt - to copy a file if it is newer. 
+
+5.cp -nv file1.txt file2.txt -to do not overwrite a file if the file already existed.
+
+6.cp -av file1.txt file2.txt -to preserve meta data and copy recursively. The cp also do the same but may the permissions, timestamp, directory structure, owner ship, etc. can change. 
+
+7.cp --preserve=all -v file1.txt file2.txt - to preserve the timestamps, permissions owner ship, etc. but you cat see it directly by using the ls -l command we can see it.
+
+8.cp -f file1.txt file2.txt - to force overwrite a file.
+
+9.cp --parents a/file1.txt file2.txt - to preserve full path. It create a path.  
+
+10.cp --version and cp --help.
