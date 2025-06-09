@@ -1,0 +1,15 @@
+Hierarchical Inheritance:
+        When one or more child classes are inheritance the properties from one parent class is called hierarchical Inheritance.
+
+Syntax:
+        class Parent_Classname:
+             #statements
+        class Child_class1(Parent_Classname):
+             #statements
+        class Child_class2(Parent_Classname):
+             #statement 
+
+When you want to inherit the attributes or methods from the parent class you need to mention it on child class. 
+
+ You have to create the child class objects how many classes are there.
+

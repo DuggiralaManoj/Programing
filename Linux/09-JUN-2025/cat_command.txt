@@ -1,0 +1,23 @@
+Why cat command is used?
+
+cat concatenate and display the content of a file. It is a powerful command and it also used for creating, viewing and combining of a file.
+
+1.cat file.txt  - to display a content of file.
+
+2.cat file1.txt file2.txt  - to concatenate two files
+
+3.cat file1.txt > file2.txt  - to write content of a file into new file.
+
+4.cat file1.txt >> file2.txt  - to append the a file to existing file.
+
+5.cat > file.txt  - to create a file and wait it will wait for user input and if you want to save then click ctlr+D to exist and save the file.
+
+6.cat -n file.txt  - to show line numbers to a file.
+
+7.cat -b file.txt  - to show line number for non blank output lines in  file.
+
+8.cat -s file.txt  - to suppress the empty lines in output of a file.
+
+9.cat -n  -s file.txt  - to print content of a file with lines and suppress the empty lines.
+
+cat --help and cat --version
