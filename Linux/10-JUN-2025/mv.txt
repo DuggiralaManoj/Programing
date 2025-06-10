@@ -1,0 +1,26 @@
+Why mv command is used ?
+
+mv command is used to move and rename the files and directory.
+
+1.mv new_file_name.txt old_file_name.txt  - to rename a file or a directory.
+
+2.mv file.txt /path/project/program/ - to move a file  to another directory.
+
+3.mv file.txt /path/project/program/new_file_name.txt            
+- to move and rename a file simultaneously.
+
+4.mv file1.txt file2.txt /path/project/program/ - to move multiple files at the same time.
+
+5.mv dir1 /path/project/program/ - to move a directory.
+
+6.mv -v file1.txt file2.txt  - to rename the files and print the output.
+
+7.mv -v -i file1.txt file2.txt - to show a prompt to overwrite a file if the file name is already existed. Then you need to confirm the with y or you can skip overwrite by clicking enter button.
+
+8.mv -f file1.txt file2.txt - to overwrite a file without prompting to user.
+
+9.mv -i file.1.txt file2.txt - to show the prompt before overwriting a file.
+
+10.mv -n file1.txt file2.txt - to prevent the overwriting of a file.
+
+mv --help and mv --version 
