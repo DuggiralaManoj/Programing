@@ -1,0 +1,24 @@
+What is diamond problem ? How it is going to be solved ?
+
+When a multiple inheritance and hierarchical inheritance are combined as a hybrid inheritance then the diamond problem occurs ?
+
+syntax: 
+       
+class A:
+      #statements 
+class B(A):
+      #statements
+class C(A):
+      #statements
+class D(B,C):
+      #statements
+
+When the D child class inheriting properties from the parent classes when the parent classes having same method name then which method will child class call ?
+
+In this case we use mro function or mro method to find a way.
+
+From the above syntax by D class it goes to the B class check weather is there any method or not if the D method don't have any the it goes to C class again check weather the method is there are not then it goes to the A class.
+
+mro of D class:
+
+<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>
