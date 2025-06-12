@@ -1,0 +1,29 @@
+Head command is used to view the first 10 lines in big data file.
+
+1.head file.txt -to get the first 10 lines of a file. 
+
+2.head -n 5 file.txt  - to get the lines how many we wanted to print from the top.
+
+3.head -c 30 file.txt  - to get the first 30 bytes of a file.
+
+4.head -q file1.txt file2.txt - not to print the header of multiple files.
+
+5.head -v file1.txt file2.txt - to print header of multiple files.
+
+head --help and head --version 
+
+Tail command is used to view the last 10 lines of a bit data file.
+
+6.tail file.txt - to get the last 10 lines of  file.
+
+7.tail -n 5 file.txt - to get the line how many you  wanted to print from the last.
+
+8.tail -c 20 file.txt - to get the last 20 bytes of a code.
+
+9.tail -q file1.txt file2.txt - not to print the header of multiple files.
+
+10.tail -v file1.txt file2.txt - to print header of multiple files.
+
+tail --help  and tail --version 
+
+
