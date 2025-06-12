@@ -1,0 +1,18 @@
+What is the use of tac command and how it is used?
+
+Tac is command used to concatenate file content and print is reverse order. It is reverse of cat command. 
+
+1.tac file.txt  - to print the file content in reverse order.
+
+2.tac -s ":" file.txt - to print the  in reverse as separated by a spectator at the run time.
+
+3.tac - $'\n\n' file.txt - to print the paras instead of line in reverse as by taking the two empty lines like a spectator  
+
+4.tac -b -s ":" file.txt - to print the spectator before the line instead of after.
+
+5.tac -r -s '[0-9]+' file.txt - to regex matching one or more digits and split it by numbers.
+
+6.tac -s file.txt - to create and add the content at the run time and print the content after clicking ctrl+D. 
+
+tac --help
+tac --version
