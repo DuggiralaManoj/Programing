@@ -1,0 +1,23 @@
+What is the use of the more command?
+
+more command is also like cat command used to show the data but its shows the bulk amount of data and by using space or enter button to get more data.
+
+1.more file.txt  - to get the content of a file page by page.
+
+2.more -d file.txt - to displays a prompt like [Press space to continue , 'q' to quit]. It is useful for new users to understand easily. You cant see prompt.
+
+3.more -f file.txt - to count wrapped lines as 1 line not multiple and it is useful for line tracking.
+
+4.more -s file.txt - to all multiple blank lines are squeezed into one.
+
+5.more -c file.txt - to clear the screen before showing the next page instead of scrolling.
+
+6.more +10 file.txt - to show the file lines from the 11th line.
+
+7.more +/main script.c - to show from the first match of the main word.
+
+8.more -ds +/error file.txt - to show the first occurrence of the Error word and -d shows the helpful prompt -s removes extra blanks. 
+
+more --help   and  more --version
+
+

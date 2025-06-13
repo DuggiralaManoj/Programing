@@ -1,0 +1,28 @@
+File Handling in python is a way to read write the files from the system.
+
+
+Modes:
+
+"r" – Read (default). File must exist.
+
+"w" – Write. Creates a new file or truncates existing.
+
+"a" – Append. Adds data to the end of the file.
+
+"x" – Create. Fails if file already exists.
+
+"b" – Binary mode.
+
+"r+" - Read and write a file if it is already existed then its shoes the before file data as read and append the written information or data.
+
+"w+" - Write. and read. I a file is existed then it will clear the data then append the data into that file. By the .seek(0) we can move the pointer to the first passion.
+ 
+"a+" - Append and read. If a file already existed then it will append the data into it when it not existed the it creates one and write that data into it.
+
+.tell() - to show the pointer passion 
+.seek(0) - to move the pointer to the starting passion.
+
+
+
+
+
