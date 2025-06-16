@@ -26,7 +26,11 @@ Tail command is used to view the last 10 lines of a bit data file.
 
 11.tail -n +11 file.txt | head -n 10 - to skip the first 10 lines then print from the 11th line up to 10 lines.
 
-12.head -n -10 file.txt | tail -n 10 - to skip the last 10 lines and print the line which are after that 10 lines. 
+12.head -n -10 file.txt | tail -n 10 - to skip the last 10 lines and print the line which are after that 10 lin
+
+11.tail -n +11 file.txt | head -n 10 - to skip the first 10 lines and to print the from the 11th line up to 10 lines.
+
+12.head -n -10 file.txt | tail -n 10 - to skip the last 10 lines and to print the 10 lines after the 10 lines.
 
 tail --help  and tail --version 
 
