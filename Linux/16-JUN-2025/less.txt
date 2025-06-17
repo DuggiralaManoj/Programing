@@ -1,0 +1,32 @@
+less is command used to view (not to edit) the pages of a file like more command but less is more accurate then the more command. It is useful for reading large files.
+
+1.less file.txt - to open a file in less viewer. 
+
+  -> q to quit.
+
+  -> space to go to the next page.
+
+  -> b to go back a page.
+
+  -> /word to search forward.
+
+  -> ?word to search backward.
+
+2.ls -l /dir_name | less - to list the all files into the dir in long format and it sends to the less so you can scroll through it.
+
+3.less /project/dir/file_name - to search a word in the file. After entring this command then you should enter "/word_to_search". Use n for next match and N for previous.
+
+4.less +100 file.txt - to open a file and start the file at 10th line.
+
+5.less file.log.gz - to view a zip file content.
+  --> eval "$(lesspipe)" - if lesspipe is disabled.
+
+6.less -N file_name.txt - to display line numbers.
+
+7.less file1.txt file2.txt - to open multiple file.
+
+8.less -E file_name.txt - to quit after reaching the end of a file.
+
+9.less -i filename.txt - it ignores the case sensitive names like if it is lower case or upper case. 
+
+less --help and less --version
