@@ -1,0 +1,131 @@
+labex:project/ $ vi --help
+VIM - Vi IMproved 8.2 (2019 Dec 12, compiled May 03 2024 02:37:51)
+
+Usage: vim [arguments] [file ..]       edit specified file(s)
+   or: vim [arguments] -               read text from stdin
+   or: vim [arguments] -t tag          edit file where tag is defined
+   or: vim [arguments] -q [errorfile]  edit file with first error
+
+Arguments:
+   --			Only file names after this
+   -g			Run using GUI (like "gvim")
+   -f  or  --nofork	Foreground: Don't fork when starting GUI
+   -v			Vi mode (like "vi")
+   -e			Ex mode (like "ex")
+   -E			Improved Ex mode
+   -s			Silent (batch) mode (only for "ex")
+   -d			Diff mode (like "vimdiff")
+   -y			Easy mode (like "evim", modeless)
+   -R			Readonly mode (like "view")
+   -Z			Restricted mode (like "rvim")
+   -m			Modifications (writing files) not allowed
+   -M			Modifications in text not allowed
+   -b			Binary mode
+   -l			Lisp mode
+   -C			Compatible with Vi: 'compatible'
+   -N			Not fully Vi compatible: 'nocompatible'
+   -V[N][fname]		Be verbose [level N] [log messages to fname]
+   -D			Debugging mode
+   -n			No swap file, use memory only
+   -r			List swap files and exit
+   -r (with file name)	Recover crashed session
+   -L			Same as -r
+   -A			Start in Arabic mode
+   -H			Start in Hebrew mode
+   -T <terminal>	Set terminal type to <terminal>
+   --not-a-term		Skip warning for input/output not being a terminal
+   --ttyfail		Exit if input or output is not a terminal
+   -u <vimrc>		Use <vimrc> instead of any .vimrc
+   -U <gvimrc>		Use <gvimrc> instead of any .gvimrc
+   --noplugin		Don't load plugin scripts
+   -p[N]		Open N tab pages (default: one for each file)
+   -o[N]		Open N windows (default: one for each file)
+   -O[N]		Like -o but split vertically
+   +			Start at end of file
+   +<lnum>		Start at line <lnum>
+   --cmd <command>	Execute <command> before loading any vimrc file
+   -c <command>		Execute <command> after loading the first file
+   -S <session>		Source file <session> after loading the first file
+   -s <scriptin>	Read Normal mode commands from file <scriptin>
+   -w <scriptout>	Append all typed commands to file <scriptout>
+   -W <scriptout>	Write all typed commands to file <scriptout>
+   -x			Edit encrypted files
+   -X			Do not connect to X server
+   --remote <files>	Edit <files> in a Vim server if possible
+   --remote-silent <files>  Same, don't complain if there is no server
+   --remote-wait <files>  As --remote but wait for files to have been edited
+   --remote-wait-silent <files>  Same, don't complain if there is no server
+   --remote-tab[-wait][-silent] <files>  As --remote but use tab page per file
+   --remote-send <keys>	Send <keys> to a Vim server and exit
+   --remote-expr <expr>	Evaluate <expr> in a Vim server and print result
+   --serverlist		List available Vim server names and exit
+   --servername <name>	Send to/become the Vim server <name>
+   --startuptime <file>	Write startup timing messages to <file>
+   -i <viminfo>		Use <viminfo> instead of .viminfo
+   --clean		'nocompatible', Vim defaults, no plugins, no viminfo
+   -h  or  --help	Print Help (this message) and exit
+   --version		Print version information and exit
+
+Arguments recognised by gvim (GTK+ version):
+   -background <color>	Use <color> for the background (also: -bg)
+   -foreground <color>	Use <color> for normal text (also: -fg)
+   -font <font>		Use <font> for normal text (also: -fn)
+   -geometry <geom>	Use <geom> for initial geometry (also: -geom)
+   -iconic		Start Vim iconified
+   -reverse		Use reverse video (also: -rv)
+   -display <display>	Run Vim on <display> (also: --display)
+   --role <role>	Set a unique role to identify the main window
+   --socketid <xid>	Open Vim inside another GTK widget
+   --echo-wid		Make gvim echo the Window ID on stdout
+labex:project/ $ vi --version
+VIM - Vi IMproved 8.2 (2019 Dec 12, compiled May 03 2024 02:37:51)
+Included patches: 1-579, 1969, 580-1848, 4975, 5016, 5023, 5072, 2068, 1849-1854, 1857, 1855-1857, 1331, 1858, 1858-1859, 1873, 1860-1969, 1992, 1970-1992, 2010, 1993-2068, 2106, 2069-2106, 2108, 2107-2109, 2109-3995, 4563, 4646, 4774, 4895, 4899, 4901, 4919, 213, 1840, 1846-1847, 2110-2112, 2121
+Modified by team+vim@tracker.debian.org
+Compiled by team+vim@tracker.debian.org
+Huge version with GTK3 GUI.  Features included (+) or not (-):
++acl               +file_in_path      +mouse_urxvt       -tag_any_white
++arabic            +find_in_path      +mouse_xterm       +tcl
++autocmd           +float             +multi_byte        +termguicolors
++autochdir         +folding           +multi_lang        +terminal
+-autoservername    -footer            -mzscheme          +terminfo
++balloon_eval      +fork()            +netbeans_intg     +termresponse
++balloon_eval_term +gettext           +num64             +textobjects
++browse            -hangul_input      +packages          +textprop
+++builtin_terms    +iconv             +path_extra        +timers
++byte_offset       +insert_expand     +perl              +title
++channel           +ipv6              +persistent_undo   +toolbar
++cindent           +job               +popupwin          +user_commands
++clientserver      +jumplist          +postscript        +vartabs
++clipboard         +keymap            +printer           +vertsplit
++cmdline_compl     +lambda            +profile           +vim9script
++cmdline_hist      +langmap           -python            +viminfo
++cmdline_info      +libcall           +python3           +virtualedit
++comments          +linebreak         +quickfix          +visual
++conceal           +lispindent        +reltime           +visualextra
++cryptv            +listcmds          +rightleft         +vreplace
++cscope            +localmap          +ruby              +wildignore
++cursorbind        +lua               +scrollbind        +wildmenu
++cursorshape       +menu              +signs             +windows
++dialog_con_gui    +mksession         +smartindent       +writebackup
++diff              +modify_fname      +sodium            +X11
++digraphs          +mouse             +sound             -xfontset
++dnd               +mouseshape        +spell             +xim
+-ebcdic            +mouse_dec         +startuptime       +xpm
++emacs_tags        +mouse_gpm         +statusline        +xsmp_interact
++eval              -mouse_jsbterm     -sun_workshop      +xterm_clipboard
++ex_extra          +mouse_netterm     +syntax            -xterm_save
++extra_search      +mouse_sgr         +tag_binary        
+-farsi             -mouse_sysmouse    -tag_old_static    
+   system vimrc file: "$VIM/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+  system gvimrc file: "$VIM/gvimrc"
+    user gvimrc file: "$HOME/.gvimrc"
+2nd user gvimrc file: "~/.vim/gvimrc"
+       defaults file: "$VIMRUNTIME/defaults.vim"
+    system menu file: "$VIMRUNTIME/menu.vim"
+  fall-back for $VIM: "/usr/share/vim"
+Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H -DFEAT_GUI_GTK -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -Wdate-time -g -O2 -ffile-prefix-map=/build/vim-PRQ88X/vim-8.2.3995=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -D_REENTRANT -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 
+Linking: gcc -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,-E -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -Wl,-z,now -Wl,--as-needed -o vim -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lSM -lICE -lXpm -lXt -lX11 -lXdmcp -lSM -lICE -lm -ltinfo -lselinux -lcanberra -lsodium -lacl -lattr -lgpm -L/usr/lib -llua5.2 -Wl,-E -fstack-protector-strong -L/usr/local/lib -L/usr/lib/x86_64-linux-gnu/perl/5.34/CORE -lperl -ldl -lm -lpthread -lcrypt -L/usr/lib/python3.10/config-3.10-x86_64-linux-gnu -lpython3.10 -lcrypt -ldl -lm -lm -L/usr/lib/x86_64-linux-gnu -ltcl8.6 -ldl -lz -lpthread -lm -lruby-3.0 -lm -L/usr/lib 
+labex:project/ $ 

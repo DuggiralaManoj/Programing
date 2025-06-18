@@ -1,0 +1,26 @@
+What is a module and why we use module ?
+
+Module: 
+        1.Builtin modules
+        2.Userdefined modules
+
+1.Builtin Modules:
+              Which are given by default and we use them according to our requirement.
+Eg: numpy, pandas, etc...
+
+2.Userdefined Modules:
+              These are nothing but python files which acts as a module. In python every file acts as a module.
+
+
+How to import:
+ 
+1.import module
+2.import module as m
+3.from module_name as fun_name
+4.from module_name as *
+
+
+       
+
+
+

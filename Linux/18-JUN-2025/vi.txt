@@ -1,0 +1,95 @@
+vi is command is used edit the text and to create a file. vi stands for "visual Editor".
+
+One best example for create, edit, write, to add lines , to save and to quit.
+
+1.vi file.txt - to create if the file isn't existed or open a file if it is existed.
+
+2.i  - if you want to write or edit a file you have to press i the you can write or edit in a file.
+
+3. :w - to save the file you have to click Esc then click ":w".
+
+4.j - to move to second line then we can insert or write the second. After enring j you have to press O to type.
+
+5.dd - to delete a line in the file you have to move to the second line then press dd
+
+6.yy - to copy a line you have to move to the line you wanted then press yy.
+
+7.p - to pate the copied text.
+
+8. :set nu - to show line numbers we have to click esc then enter the command 
+
+9. :wq - to save and exit at the time.
+
+
+
+
+vi commands are 4 types:
+
+i. Insert mode `commands:
+
+1.i - insert before the cluster .
+
+2.I - insert at the beginning of a line.
+
+3.a - append after the curser.
+
+4.A - append at the end of the line.
+
+5.o - open new line below and enter insert mode.
+
+6.O - open new line above and enter insert mode. 
+
+
+ii. Navigation Commands:
+
+1.h - move left one character.
+
+2.l move right one character.
+
+3.k - move up one line. I is mainly used when editing multiple lines.
+
+4.j - move down one line.
+
+5.w - move to the start of next word.
+
+6.b - move back to start of previous word.
+
+7.0 - move to moves to start of line.
+
+8.$ - move to end of line.
+
+9.gg - go to first line of file.
+
+10.G - go to last line of file.
+
+
+iii. Editing commands:
+
+1.x - to delete current character under cursor. 
+
+2.dd - delete entire line.
+
+3.yy - copy current fille.
+
+4.p - paste after current line or character.
+
+5.u - undo last action.
+
+6.ctrl+r - redo what u undid.
+
+
+iv. Last line mode commands:
+    It being with :
+
+1.:w - save the file.
+
+2.:q - quit ( It only work if you saved the file before this command).
+
+3.:wq or :zz - to save and quit.
+
+4.:q! - quit without saving the file.
+
+5.:set nu - show line numbers.
+
+6.:set nonu - Hide line numbers.
+
