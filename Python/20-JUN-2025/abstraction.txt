@@ -1,0 +1,39 @@
+Abstraction: 
+            It is process of hiding complex implementation details of system and exploring only the essential features to the user. It helps to the user to focus on what an object can do instead of how it does.
+
+Eg:
+    Human body, Car, etc..
+
+Important points:
+    -->  It can't implement abstraction by default. We have to import abc module than we can implement.
+    -->  Abstract classes inherit from ABC class.
+    -->  By using @abstractmethod we can declare methods without any implementation.
+    -->  We can not be instantiate abstract class directly. 
+    -->Subclasses must implement all abstract methods.
+
+Syntax:
+
+from abc import ABC, abstractmethod
+
+class ClassName(ABC):  
+
+    @abstractmethod
+    def method_name(self):
+        pass  # No implementation
+
+    def concrete_method(self):
+        print("This is a concrete method.")
+
+class SubClassName(ClassName):
+
+    def method_name(self):
+        print("Implementation of abstract method.")
+
+obj = SubClassName()
+obj.method_name()
+obj.concrete_method()
+
+
+
+
+

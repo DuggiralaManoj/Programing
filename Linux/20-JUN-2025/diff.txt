@@ -1,0 +1,27 @@
+What is the use of diff command and how it is used ?
+
+diff command is used to compare to files.
+
+1.diff file1.txt file2.txt - to compares the two file and print the difference between the two files in symbolic format.
+
+It give some prompt after the that command.
+Like --
+
+i. a - to show the line which is added in other file.
+
+ii. d - to show the line which is deleted line in other file.
+
+iii. c - to show the line which is differ from the two files.
+
+
+2.diff -u file1.txt file2.txt - it gives the clear  explanation of file where the changes ar by giving  prompt like @@ -1,4 +1,4 @@ where the changes are.
+
+3.diff -c file1.txt file2.txt - to show more content before and after the change.
+
+4.diff --side-by-side file1.txt file2.txt - to view the files side by side.
+
+5.diff --brief file1.txt file2.txt - just to tell files are different from one to other by showing "differ".
+
+diff --help and diff --version.
+
+
