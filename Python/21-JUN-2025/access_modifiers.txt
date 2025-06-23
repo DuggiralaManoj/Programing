@@ -1,0 +1,24 @@
+access specifiers:
+       Which are nothing but keywords used to set the visibility of classes, methods and members of them. 
+
+We have  3 modifiers:
+
+1.Public - It is accessible by every one 
+
+2.Private - It is accessible by same method or class members and same modules.
+
+3.pretected - It is  only accessible by same class which it defined.
+
+
+--> In python don't have key words like public, protected and private.
+
+1.If it is public then it don't have any keywords 
+
+2.If it is protected you should give this "_" before the attribute or method name. 
+ It can accessed by the outer classes members also.
+
+3.If it is protected you should give this "__" before the attribute or method name.
+You can not access the things directly but you can access it when you are calling the object you just mention the class name with the attribute or method name like "objectname._Classname__attributeOrMethodName".
+
+
+
