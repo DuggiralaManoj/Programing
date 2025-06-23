@@ -1,0 +1,37 @@
+What is the use of echo command ?
+
+echo command is used to display a string or text to the terminal. It is a built in command for shells like bash.
+
+Basic Syntax:
+              echo [option]  [string]
+
+1.echo "String_or_text" - to display the string or text in bash.
+
+2.echo Text to display - to display multiple words.
+
+3.echo -n "Processing..." - after displaying a text cursor doesn't move to the another the it stays next to the displayed text.
+
+But for online terminals it don't work.
+
+4.echo -e  "slashes" - it enables the use of backslash.
+
+\n	New line
+\t	Horizontal tab
+\\	Backslash
+\"	Double quote
+\a	Alert (bell sound)
+\b	Backspace
+\r	Carriage return
+
+5.echo -E "slashes" - disable the use of backslash.
+
+6.name="sai"
+  echo "welcome, $name!" - to print the variables.
+
+7.echo "enter text $(date)" file.txt - to redirect the output to a file.
+
+8.echo -e "\e[31mThis is red text\e[0m" - to print the output in red colour.
+
+
+
+
