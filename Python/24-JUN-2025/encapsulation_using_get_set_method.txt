@@ -1,0 +1,21 @@
+Encapsulation :
+           Wrapping  the classes or attributes or methods into a unit.
+
+Example:
+      Capsule
+
+If you are doing abstraction process then you should use encapsulation in it. 
+
+--> If you are calling a public function or attributes which you should call by the object by the "name_mangling".
+
+--> You should use get set methods instead of name_mangling because it works effectively and most of the developers use this method only.
+
+syntax for : 
+       get():
+          #statements
+       set():
+          if element:
+             #statements 
+          else:
+             #statements from get method
+
