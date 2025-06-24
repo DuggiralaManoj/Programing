@@ -1,0 +1,27 @@
+Why grep used in Linux?
+ 
+grep(Global Regular Expression Print) is used to search and print the words which are matching to that words. It scans the files or input provided to it.
+
+1.grep "Hello" file.txt - to print the words which are matches to the 'Hello' word.
+
+2.grep -i "hello" file.txt - to print the case sensitive words also.
+
+3.grep -c "hello" file.txt - to print the count of the words which are matches.
+
+4.grep -n "error" file.txt - to print the file number to the matching word.
+
+5.grep -E " hello|error" file.txt - to print the extended regular expressions.
+
+6.grep -w "is" file.txt - to match the whole word.
+
+7.grep -F "(a|b)" file.txt - to search as like a string with out any regex like "grep-i".
+
+8.grep -r "Hello" /home/user/project/ - to search under the files and directories and subdirectories for that word.
+
+9.grep -x "line you wanna search" - to match the entire line
+
+10.grep -v "hello" - to search the lines which don't having the word.
+
+11.grep -l "hello" file*.txt - to list the files which having the matched word.
+
+ 
