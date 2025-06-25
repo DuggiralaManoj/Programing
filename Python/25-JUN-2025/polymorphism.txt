@@ -1,0 +1,11 @@
+What is polymorphism in python?
+
+It is nothing but having multiple actions according to the input it changes behaviour.
+
+--> polymorphism allows the same function or method to operate on different types of objects.
+
+Example:
+       --> '+' operator which is used to sum the integer and also concatenate if they are strings
+       --> It changes behavior according to the input.
+
+   
