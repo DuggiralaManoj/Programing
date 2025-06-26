@@ -1,0 +1,35 @@
+What is duck typing in python ?
+
+Duck typing in python is a concept of dynamic typing where are the class of an objects are less important than the methods and properties that object has.
+
+--> Static typing is used in java programing language.
+
+Example:
+
+public class Main {
+      public static int addNumbers(int a, int b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+        int result = addNumbers(3, 5);
+        System.out.println(result);     }
+}
+
+
+--> Dynamic typing is used in python programing language.
+
+Example:
+
+x = 10         
+print(x + 5)   
+
+x = "hello"     
+print(x + " world") 
+
+Duck typing is like "If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck."
+
+
+
+
+

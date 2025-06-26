@@ -1,0 +1,26 @@
+What is a zip file and to convert a file into zip file using zip command?
+
+zip command in Linux is used to compress the file an directories into a .zip file. It reduces the size of the file and helps in bound multiple files together. 
+
+1.zip archive.zip file1.txt file2.txt - to create a archive zip file by compressing the file1 and file2.
+
+2.zip -r project.zip Directory_name/ - to compress the directory.
+
+3.zip -e secret.zip secret.txt  - to secure our file by giving some password to the zip file on run time.
+
+4.zip -9 best_compression.zip largefile.txt - to compress a file in heigh level (0 is for no compression and 9 is for best compression).
+
+5.zip -m moved.zip report.txt - to compress the report file into the moved.zip and deletes the original report file.
+
+6.zip -r backup.zip Directory_name -x "*.py" - to compress the files in directory and excludes the which file having the ".py" extinction.
+
+7.zip -d archive.zip oldfile.txt - to delete a file from existing zip folder.
+
+--> The zip command is case-sensitive and path-sensitive. If the file inside the archive is saved with a different name or in a subdirectory, zip won't find it.
+
+--> we have to give " unzip -l archive.zip" command to what is the name of the file in that zip folder.
+
+8.zip --test archive.zip - to check the file in the folder are corrupted or not or they are existed o not.
+
+
+ 
