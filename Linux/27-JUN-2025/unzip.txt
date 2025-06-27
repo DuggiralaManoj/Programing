@@ -1,0 +1,23 @@
+Why unzip command is used ?
+
+unzip command is used to extract the files from .zip. unzip command is usually decompress the zip files.
+
+1.unzip file.zip - to extracts the file.zip in current directory.
+
+2.unzip -l project.zip - to list the files from the zip file without extraction.
+
+3.unzip file.zip -d /home/user/docs   - to extract the zip file to a specific directory.
+
+4.unzip project.zip  file1.txt dir/file2.txt - to extract specific file.
+
+5.unzip project.zip -x "dir/file2.txt" - to extract the whole file but exclude the specific file.
+
+6.unzip -o project.zip - to extract the file without any prompt before extracting.
+
+7.unzip -j project.zip - to extract the file into the main  folder or directory with out having subdirectories.
+
+8.unzip -t file.zip - to test the file if it is corrupted or files are existing or not.
+
+9.unzip project.zip "*.txt" - to extract the file which are having extinction like ".txt",".py",etc....
+
+ 
