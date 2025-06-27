@@ -1,0 +1,17 @@
+What is operator overloading in python ?
+
+Operator Overloading: 
+                      It is nothing but an operator is doing work the more than it's capability.
+
+Eg:  -->  1+2=3      #sum
+     --> '1'+'2'=12  #concatination
+In this example "+" operator doing its work beyond its capability.
+
+How they are performing those operations by there input ?
+
+In python they are some special methods which having double slash in front of it and end of it are called dunder methods or magic methods.
+
+Eexample:
+          __init__, __add__, etc,.. 
+
+ 
