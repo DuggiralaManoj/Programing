@@ -1,0 +1,20 @@
+How to clear the screen ?
+
+1.clear - to clear the screen.
+
+2.tput clear or tput reset - to clear the screen in any Linux systems.
+
+3.ctrl + L - from the key board also we can clear the screen.
+
+4.clear - T <term> - to force the terminal type to be vt100. it is useful in scripting when the terminal behaviour is not stranded.
+
+--> to know the terminal type "echo $TERM"
+
+5.reset - not only clears the screen it also clears the terminal settings.
+
+6.clear help - to get help and know the information about the command 
+
+7.clear -V - to get the version  
+
+8.clear -x - to just scroll down it not to clear.
+
