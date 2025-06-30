@@ -1,0 +1,18 @@
+if we want update any code like adding files/folder or modifying files on git and giving different commit to the different file in git bash  repo's we need to follow below steps 
+     
+ 1) open the path of a folder in git bash
+
+ 2) push the updated code to repo below git commands will help 
+    i)  git add folder1_name
+    ii) git commit -m " folder1 comments "
+
+    iii)git add folder2_name
+    iv) git commit -m "folder2 comments "
+                 .
+                 .
+    v)  git checkout -b feature_branch
+    vi)git push --set-upstream origin feature_branch 
+
+ 3) if we run the above commands your new code will pushed feature_brach so all your modified code is available in feature_branch
+
+ 4) to merge your new code to main branch need to raise pr
