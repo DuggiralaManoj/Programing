@@ -1,0 +1,25 @@
+What is method overloading and overriding?
+
+Method Overloading:
+           Defining methods with same name and having different number of parameters or different arguments within a same class.
+ 
+--> But python doesn't support method overloading but we can archive that with default argument or *args in the parenthesis of the class.
+
+Syntax for *args:
+
+class Class_name:
+      def method_name(self,*args):
+          #statements
+
+Method Overriding:
+            Having same name and same parameters in different classes and one class should be patent to the other and another should be child class which inheriting the properties from the parent class.
+
+-->If you are calling sub class so if it only print the method from the subclass not from the parent class so you have to get the method to sub class using super class so you can print both of the methods.
+
+Syntax of supper:
+  
+In sub class--> supper().method_name()
+
+
+
+ 
