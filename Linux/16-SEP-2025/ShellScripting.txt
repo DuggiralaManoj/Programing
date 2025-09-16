@@ -1,0 +1,61 @@
+**Shell:**
+
+     **->** The shell is a program that takes your commands and ask the operating system to run them.
+
+    -> Scripts are just like text files containing a sequence of commands that you can run manually.
+
+
+Popular shells: bash, zsh, sh
+
+
+
+
+
+1.How to create a script file using nano ?
+
+
+
+--> **nano hello.sh** to create a script.
+
+
+
+--> Inside the script click **Ctrl+**N to write the text in the file.
+
+
+
+-->Then enter **echo "Hello"** command to print something.
+
+
+
+--> Click **Ctrl+O** save the file and then click **Enter** and **Ctrl+X** to exit from the file.
+
+
+
+--> Then give permissions for that file by giving this command **chmod +x hello.sh** 
+
+
+
+--> Now run the file **./hello.sh**
+
+
+
+
+
+2.How to create script using vi ?
+
+
+
+--> **vi filename.sh** to create and enter into that.
+
+
+
+--> Click **I** to write in the file.
+
+
+
+--> then enter commands 
+
+
+
+--> Click **Esc** and **:w** to save and **Esc** and **:wq** to save and exit.
+
