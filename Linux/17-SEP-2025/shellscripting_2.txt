@@ -1,0 +1,125 @@
+Shebang:
+     Which is a command used to run the script at bash not at bin and when we use this we can use every command without getting errors with out this may some commands won't work properly. Mainly the script only runs at bash when you use this shebang either it is sh or other shells.
+
+Command: #!/usr/bin/env bash 
+
+ You should place this command at top of the script only.
+
+
+------------------------------------------
+
+Exit Codes:
+     These codes are just like returning a value according the error of the script. 
+
+-->If we get 0 that means we don't have any errors and our program is running good.
+
+-->If you get the 1,2,126,127,130 we have errors according to these numbers.
+
+We can use this command in terminal or in script also.
+
+Example in terminal:
+
+       ls /etc
+       echo $?     
+-->If it is true we'll get 0 or if we get other numbers that means that file doesn't exist.
+
+Example in script:
+       
+#!/user/bin/env bash
+mkdir mydir
+if [ $? -eq 0 ]; then
+  echo "Directory created"
+else
+  echo ""Error created"
+fi
+
+--> If directory is created then you get Directory created, if not Error created.
+
+-->> We can also exit script with code ---using exit N -- 
+
+Example:
+
+#!/usr/bin/env bash
+echo "something went wrong"
+exit 1
+
+You will get 1 
+
+Importance: 
+--> Mainly used in error handling 
+--> Helpful in conditional logics inside scripts.
+
+-----------------------------------------
+
+Variables:
+    These are just like containers of values.
+
+Example: name="shiva"  --->defining 
+         echo $name    --->How to use 
+
+*** When we are defining the we should not use spaces around "=".
+
+-----------------------------------------
+
+Quoting:
+    When you quote the variables while printing the value which is in that variable only represents as a string if not it will splits into words if you have spaces in the variable.
+
+Example:
+name="hello shiva"
+echo "$name"    --> output: hello shiva
+echo $name      --> output: hello shiva but it                                           
+                            splits into 2 words
+
+Where it is important:
+-->When your values containing spaces
+Example: a="my name"
+
+-->When your variable is empty 
+Example: b=""
+
+-->When you use special characters 
+Example: c="*.txt"
+
+Where it is not important:
+-->When you want to split them in some conditions
+
+Example:
+list="one two three"
+for word in $list; do     
+   echo "$word"
+done
+
+-->If you quote the list then it converts into a string.
+
+------------------------------------------
+
+Strict Mode:
+   The bash is very forgiving, if something goes wrong it skips that and keep running may it cause dangerous results in order to protect that we use strict mode.
+
+Command: set -euo pipefail
+
+-->e is to exit when you get the first error.
+
+-->u to treat the unset variables as errors 
+     
+-->o pipefail  if a pip fails first command it will terminate the program.
+
+When you use the whole command then it is powerful than the single.
+
+Example:
+#!/usr/bin/env bash
+set -euo pipefail
+
+file="data.txt"
+echo "Processing $file"
+cat "$file"
+
+
+--> If file is unset → script exits (because of -u).
+
+--> If cat fails (file missing) → script exits (because of -e).
+
+--> If a pipeline fails → script exits (because of pipefail).
+
+
+ 
