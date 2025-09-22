@@ -1,0 +1,22 @@
+__name__:
+      It is an special built-in idiom/variable that tells you how the python file is executed or used. We can reuse the code by importing the file.
+
+-->If the file run directly then it sets __name__="__manin__" and acts like script.
+
+-->If the file is imported as a module then sets __name__="module_name"  and acts like a module.
+
+
+Example:
+
+def main():
+    print("Hello")
+
+if __name__=="__main__":
+    main()
+
+--> if you run the file directly you will get Hello
+-->if not then nothing will print but you can call the function in the file or we can reuse the code.
+
+
+
+
