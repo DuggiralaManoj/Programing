@@ -1,0 +1,27 @@
+pip:
+    pip is a package manager or installer .It is a command to manage the packages into out systems or applications.
+
+Example: pip install package_name,
+         pip uninstall package_name, etc..
+
+PyPI:
+     It is repository which contain all predefined packages in it and we can also push the packages into that repo.
+
+Module:
+     A python file containing of classes, attributes, methods, etc.. is called module.
+
+Example of Module:
+    A pythons it self acts as a module.
+
+Package:
+     A collection of modules and sub packages are store in a directory.
+
+Example of package:
+  mypackage/
+│
+├── __init__.py
+├── module1.py
+├── module2.py
+└── subpackage/
+    ├── __init__.py
+    └── submodule1.py
