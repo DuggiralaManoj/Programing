@@ -1,0 +1,42 @@
+What is tar command and what is the use of it?
+
+The tar stands for 'tape archive'. It is used to create, view, extract and manipulate the archive files like '.tar','.tar.gz','.tgz' extensions. 
+
+1.tar -cvf archive.tar file.txt dir1/  - to create a tar archive file.
+
+2.tar -czvf archive.tar.gz file.txt dir1/  - to compress a file into file.tar.gz using gzip.
+
+3.tar -xvf archive.tar  - to extract the tar file.
+
+4.tar -xzvf archive.tar.gz  - to extract the tar.gz files.
+
+5.tar -tvf archive.tar - to list the file from the tar  file.
+
+6.tar -tzvf archive.tar - to list the file from the tar.gz  file
+
+7.tar -xvf archive.tar dir1/file2.txt - to extract a specific file from the tar.
+
+8.tar -cjvf archive.tar.bz2 file.txt - to compress a file into bzip2. It compresses the file better than gzip.
+
+9.tar -cjvf archive.tar.xz file.txt - to compresses a file into xz  even better than others.
+
+10.tar -rvf archive.tar newfile.txt - to append a file to an existing archive folder.
+
+11.tar --delete -f archive.tar file1.txt - to delete a file from the archive.
+--> It is not supported by the compressed files.
+
+
+Option	Meaning
+-c	Create a new archive
+-x	Extract files from archive
+-t	List contents of archive
+-v	Verbose mode (show files being processed)
+-f	Use archive file (must be followed by archive name)
+-z	Compress with gzip (.tar.gz)
+-j	Compress with bzip2 (.tar.bz2)
+-J	Compress with xz (.tar.xz)
+--delete	Delete from archive (rarely used and not always supported)
+
+
+
+

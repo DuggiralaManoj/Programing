@@ -1,0 +1,13 @@
+What are magic methods ?
+
+-->These are allow to do the operations with user created objects.
+
+Examples: __init__,__add__,__del__,__gt__,etc..
+
+You can checkout this page for more magic methods--> 
+https://www.geeksforgeeks.org/python/dunder-magic-methods-python/
+
+
+
+
+  
